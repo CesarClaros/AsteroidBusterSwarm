@@ -196,17 +196,22 @@
     left: 50%;
 
     height: 200px;
-    width: 200px;
+    width: 300px;
     margin-top: 140px; 
-    margin-left: 400px;
+    margin-left: 50px;
 
-    border-color: orange;
-    border-width: 8px;
+    border-color: blue;
+    border-width: 0px;
     border-style: solid;
     border-radius: 50%;
 
-    box-shadow: 0 0 128px red;
+    /*box-shadow: 0 0 128px blue;*/
     
+}
+
+#logo {
+	height: 70px;
+    width: 150px;
 }
 
 #earth {
@@ -214,13 +219,13 @@
     top: 55%;
     left: 25%;
     /* Style your earth */
-    height: 50px;
-    width: 50px;
+    height: 90px;
+    width: 90px;
     margin-top: -20px; 
     margin-left: 200px;
 
     border-color: blue;
-    border-width: 3px;
+    border-width: 1px;
     border-style: solid;
     border-radius: 50%;
 
@@ -234,10 +239,10 @@
 
     width: 400px;
     height: 400px;
-    margin-top: 20px;
-    margin-left: 300px;
+    margin-top: 40px;
+    margin-left: 0px;
 
-    border-width: 2px;
+    border-width: 1px;
     border-style: dotted;
     border-color: white;
     border-radius: 50%;
