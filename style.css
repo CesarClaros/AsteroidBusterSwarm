@@ -113,9 +113,10 @@
 /* Slide feature */
 
 .slide-feature {
-  text-align: center;
-  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/ac.png');
-  height: 470px;
+  /*text-align: center;*/
+  background-color: black;
+  background-size: cover;
+  /*height: 470px;*/
 }
 
 .slide-feature img {
