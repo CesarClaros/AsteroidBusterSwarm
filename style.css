@@ -214,6 +214,11 @@
     width: 150px;
 }
 
+#group {
+	height: 70px;
+    width: 650px;
+}
+
 #earth {
     position: absolute;
     top: 55%;
