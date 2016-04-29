@@ -62,7 +62,7 @@
 }
 
 .slide {
-  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-color: black;
   background-size: cover;
   display: none;
   position: absolute;
@@ -188,4 +188,84 @@
 
 .get-app img {
   height: 40px;
+}
+
+#sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    height: 200px;
+    width: 200px;
+    margin-top: 140px; 
+    margin-left: 400px;
+
+    border-color: orange;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 50%;
+
+    box-shadow: 0 0 128px red;
+    
+}
+
+#earth {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    /* Style your earth */
+    height: 50px;
+    width: 50px;
+    margin-top: -20px; 
+    margin-left: 200px;
+
+    border-color: blue;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50%;
+
+    box-shadow: 0 0 128px blue;
+}
+
+#earth-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 300px;
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    /* For Section #2 */
+    -webkit-animation: spin-right 10s linear infinite;
+     -moz-animation: spin-right 10s linear infinite;
+      -ms-animation: spin-right 10s linear infinite;
+       -o-animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite;
+
+}
+
+-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
